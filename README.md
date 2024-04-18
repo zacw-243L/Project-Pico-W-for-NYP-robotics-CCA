@@ -1,4 +1,4 @@
-# Roboto Project for NYP robotics CCA
+ x# Roboto Project for NYP robotics CCA
 <br>
 Repository for all things needed for the robot to work
 <br>
@@ -337,8 +337,8 @@ except KeyboardInterrupt:
 ```
 <br>
 Be sure to ask the Cher for the password to the wifi <br> (only works locally)<br>
-ssid = 'DWR-921-F8C5'
-password = 'eTvwcPX5' <br>
+⋅⋅* ssid = 'DWR-921-F8C5'
+⋅⋅* password = 'eTvwcPX5' <br>
 
 #### Cerdit to Christopher Barnatt for providing all the Python code above
 <br>
