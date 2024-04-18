@@ -370,10 +370,10 @@ this might be out of date ...
 
   <br>
 
-#### Cerdit to Christopher Barnatt for providing all the Python code above
+#### Credit to Christopher Barnatt for providing all the Python code above
 <br>
 
-# once you have done all of the above ...
+# Once you have done all of the above ...
 <br>
 you should have a working robot that looks like this...
 <br>
@@ -381,7 +381,7 @@ you should have a working robot that looks like this...
 
 https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/c843cf3b-05e1-4dd4-ae39-a13bed93fc13
 
-cerdit to me for the video
+credit to me for the video
 
 
 # Extra Code
@@ -458,7 +458,12 @@ you should have a working robot that looks like this...
 https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/8891ed82-aafc-4d91-a408-55f4f8501dbf
 
 a working romba that moves in random directions<br>
-Cerdit to me fo the video
+
+Credit to me for the video
+
+For more info about the Pico W click here[^1].
+
+[^1]: [Pico W documentation. they did this better then me](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/microcontrollers/raspberry-pi-pico/about_pico.adoc)
 
 
 
