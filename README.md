@@ -338,7 +338,7 @@ except KeyboardInterrupt:
 <br>
 Be sure to ask the Cher for the password to the wifi <br> (only works locally)<br>
 <br>
-this might be out of date ....
+this might be out of date ...
   
   
   <br>
@@ -350,6 +350,16 @@ this might be out of date ....
 
 #### Cerdit to Christopher Barnatt for providing all the Python code above
 <br>
+
+# once you have done all of the above ...
+<br>
+you should have a working robot that looks like this...
+<br>
+
+
+https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/c843cf3b-05e1-4dd4-ae39-a13bed93fc13
+
+
 
 ## IR sensor code
 ```
