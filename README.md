@@ -33,6 +33,14 @@ Repository for all things needed for the robot to work
  
     [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2)
 
+    ## De Bricking instructions <br>
+
+      1. Hold down the BOOTSEL button while plugging the board into USB.
+      2. When the USB mass storage device windows appears copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2) into the Pico W board
+      3. Wait for the window to close then it will open again. This time copy [the RPI_PICO_W-20240105-v1.22.1.uf2 file which is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYProboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2) into the Pico W board.
+      4. The Pico W board should now work again.
+
+
 <br>
 
 ## The final code used in the video can be downloaded or copy pasted from below as follows: <br>
