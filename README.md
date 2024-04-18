@@ -1,10 +1,10 @@
 # Roboto Project for NYP robotics CCA
 <br>
-
 Repository for all things needed for the robot to work
-
 <br>
+
 ## Below are the steps taken to make the robot
+
 <br>
 
  1. [link to tutorial](https://www.explainingcomputers.com/pi_pico_w_robot.html "explainingcomputer's Pi Pico W WiFi Controlled Robot") this is where to get the base code for the bot
