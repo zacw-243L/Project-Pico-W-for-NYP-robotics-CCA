@@ -23,7 +23,12 @@ Repository for all things needed for the robot to work
 
     [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-roboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2)
 
- 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional
+    ## Installation instructions <br>
+
+    Hold down the BOOTSEL button while plugging the board into USB. The uf2 file below should then be copied to the USB mass storage
+    device that appears. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
+
+ 6. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional
 
 <br>
 
