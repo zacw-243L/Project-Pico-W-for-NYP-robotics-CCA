@@ -12,6 +12,7 @@ Repository for all things needed for the robot to work
  2. [video showing how to build the bot](https://youtu.be/iTo4Qh2R6m4) <br> Requires: Flathead Screwdriver, Wire Cutters, 3D Printers, Allen Wrench, Solder, Soldering Iron, Female to Female jumper wires (short)<br>
 
 ### Youtube tutorial
+<br>
 
 [![Raspberry Pi Pico W: WiFi  Controlled Robot](https://i.ytimg.com/vi/iTo4Qh2R6m4/maxresdefault.jpg)](https://www.youtube.com/watch?v=iTo4Qh2R6m4 "Raspberry Pi Pico W: WiFi  Controlled Robot")   
  
@@ -20,7 +21,7 @@ Repository for all things needed for the robot to work
 
  4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/)
 
- 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) hopefully optional
+ 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional
 
 <br>
 
