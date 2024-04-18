@@ -338,6 +338,8 @@ except KeyboardInterrupt:
 <br>
 Be sure to ask the Cher for the password to the wifi <br> (only works locally)<br>
 
+this might be out of date ....
+<br>
 - ssid = 'DWR-921-F8C5'
 - password = 'eTvwcPX5' 
 <br>
