@@ -4,7 +4,7 @@ Repository for all things needed for the robot to work
 <br>
 
 
-1. [link to tutorial](https://www.explainingcomputers.com/pi_pico_w_robot.html "explainingcomputer' Pi Pico W WiFi Controlled Robot") this is where to get the base code for the bot
+1. [link to tutorial](https://www.explainingcomputers.com/pi_pico_w_robot.html "explainingcomputer's Pi Pico W WiFi Controlled Robot") this is where to get the base code for the bot
 2. [video showing how to build the bot](https://youtu.be/iTo4Qh2R6m4) <br> Requires: Flathead Screwdriver, Wire Cutters, 3D Printers, Allen Wrench, Solder, Soldering Iron, Female to Female jumper wires (short)
 3. [link to thonny micropython IDE](https://thonny.org/)
 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/)
