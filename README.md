@@ -26,7 +26,7 @@ Repository for all things needed for the robot to work
 <br>
 
 ## The final code used in the video can be downloaded or copy pasted from below as follows: <br>
-### 1. Web Control
+### 1. [Web Control](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Web%20Control.py)
 
 ```
 import network
@@ -135,7 +135,7 @@ try:
 except KeyboardInterrupt:
     machine.reset()
 ```
-### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Motor%20Test.py)
+### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Motor%20Test.py)
 ```
 from time import sleep
 from machine import Pin
