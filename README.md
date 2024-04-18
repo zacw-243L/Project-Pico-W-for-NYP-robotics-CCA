@@ -362,8 +362,9 @@ https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472
 cerdit to me for the video
 
 
+#Extra Code
 
-## IR sensor code
+## [IR sensor code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/IR%20sensor.py)
 ```
 from time import sleep
 from machine import Pin
