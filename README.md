@@ -135,9 +135,7 @@ try:
 except KeyboardInterrupt:
     machine.reset()
 ```
-<br>
 ### 2. Motor Test
-
 ```
 from time import sleep
 from machine import Pin
@@ -204,9 +202,7 @@ print ("'Time for bed' said Zeberdee.")
 
 move_stop()
 ```
-<br>
 ### 3. Final Code
-
 ```
 import network
 import socket
@@ -341,9 +337,9 @@ except KeyboardInterrupt:
 ```
 <br>
 Be sure to ask the Cher for the password to the wifi <br> (only works locally)
+<br>
 
 ## IR sensor code
-
 ```
 from time import sleep
 from machine import Pin
