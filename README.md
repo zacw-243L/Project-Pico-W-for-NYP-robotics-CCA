@@ -29,7 +29,10 @@ Repository for all things needed for the robot to work
       2. The uf2 file below should then be copied to the USB mass storage device that appears.
       3. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
 
- 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional <br>
+ 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2)
+    <br>
+    hopefully optional
+    <br>
  
     [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2)
 
@@ -39,7 +42,7 @@ Repository for all things needed for the robot to work
       2. When the USB mass storage device windows appears copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2) into the Pico W board
       3. Wait for the window to close then it will open again. <br>
          This time copy [the RPI_PICO_W-20240105-v1.22.1.uf2 file which is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYProboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2) into the Pico W board.
-      4. The Pico W board should now work again.
+      4. The Pico W board should now work again. (hopefully)
 
 
 <br>
