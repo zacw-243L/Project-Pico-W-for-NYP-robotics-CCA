@@ -9,7 +9,10 @@ Repository for all things needed for the robot to work
 3. [link to thonny micropython IDE](https://thonny.org/)
 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/)
 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) hopefully optional
-   
+
+<br>
+IR sensor code
+
 ```
 from time import sleep
 from machine import Pin
@@ -70,4 +73,3 @@ while True:
         sleep(1)
         move_stop()
 ```
-IR sensor code
