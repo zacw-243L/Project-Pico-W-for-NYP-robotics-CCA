@@ -339,16 +339,12 @@ except KeyboardInterrupt:
 Be sure to ask the Cher for the password to the wifi <br> (only works locally)<br>
 <br>
 this might be out of date ....
-
-
-<br>
-
-
+  
+  
+  <br>
 - ssid = 'DWR-921-F8C5'
-- password = 'eTvwcPX5' 
-
-
-<br>
+- password = 'eTvwcPX5'
+  <br>
 
 #### Cerdit to Christopher Barnatt for providing all the Python code above
 <br>
