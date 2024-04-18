@@ -9,7 +9,9 @@ Requires: Flathead Screwdriver, Wire Cutters, 3D Printers, Allen Wrench, Solder,
 3. [link to thonny micropython IDE](https://thonny.org/)
 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/)
 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) hopefully optional
-```from time import sleep
+   
+```
+from time import sleep
 from machine import Pin
 import random
 
@@ -66,5 +68,6 @@ while True:
         x = random.choice(movement_functions)
         x()
         sleep(1)
-        move_stop()```
+        move_stop()
+```
 IR sensor code
