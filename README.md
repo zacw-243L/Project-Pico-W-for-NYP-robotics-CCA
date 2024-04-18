@@ -135,7 +135,7 @@ try:
 except KeyboardInterrupt:
     machine.reset()
 ```
-### 2. Motor Test
+### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Motor%20Test.py)
 ```
 from time import sleep
 from machine import Pin
