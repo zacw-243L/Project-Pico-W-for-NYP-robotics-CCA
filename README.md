@@ -13,7 +13,7 @@ Repository for all things needed for the robot to work
 
 ### Youtube tutorial
 <br>
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iTo4Qh2R6m4/0.jpg)](https://www.youtube.com/watch?v=iTo4Qh2R6m4)
+[<img src="https://i.ytimg.com/vi/iTo4Qh2R6m4/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=iTo4Qh2R6m4 "Raspberry Pi Pico W: WiFi  Controlled Robot")
 
  
 
