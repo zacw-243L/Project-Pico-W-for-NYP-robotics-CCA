@@ -434,7 +434,8 @@ you should have a working robot that looks like this...
 
 https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/8891ed82-aafc-4d91-a408-55f4f8501dbf
 
-a working romba that moves in random directions
+a working romba that moves in random directions<br>
+Cerdit to me fo the video
 
 
 
