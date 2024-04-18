@@ -30,6 +30,7 @@ Repository for all things needed for the robot to work
       3. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
 
  5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional <br>
+ 
     [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2)
 
 <br>
