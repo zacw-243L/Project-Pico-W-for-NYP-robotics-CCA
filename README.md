@@ -202,7 +202,7 @@ print ("'Time for bed' said Zeberdee.")
 
 move_stop()
 ```
-### 3. [Final Code](../Python Codes/Final Code.py)
+### 3. [Final Code](../blob/master/Python Codes/Final Code.py)
 ```
 import network
 import socket
