@@ -25,9 +25,9 @@ Repository for all things needed for the robot to work
 
     ## Installation instructions <br>
 
-     1. Hold down the BOOTSEL button while plugging the board into USB. 
-     2. The uf2 file below should then be copied to the USB mass storage device that appears.
-     3. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
+     ⋅⋅1. Hold down the BOOTSEL button while plugging the board into USB. 
+     ⋅⋅2. The uf2 file below should then be copied to the USB mass storage device that appears.
+     ⋅⋅3. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
 
  6. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional
 
