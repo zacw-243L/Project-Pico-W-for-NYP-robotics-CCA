@@ -19,7 +19,7 @@ Repository for all things needed for the robot to work
 
  3. [link to thonny micropython IDE](https://thonny.org/)
 
- 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/)
+ 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> [the RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-roboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2)
 
  5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2) <br> hopefully optional
 
