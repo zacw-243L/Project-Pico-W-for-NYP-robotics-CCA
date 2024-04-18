@@ -202,7 +202,7 @@ print ("'Time for bed' said Zeberdee.")
 
 move_stop()
 ```
-### 3. [Final Code](Roboto-Project-for-NYP-robotics-CCA/Final Code.py)
+### 3. [Final Code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Final%20Code.py)
 ```
 import network
 import socket
