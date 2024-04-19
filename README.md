@@ -372,8 +372,8 @@ this might be out of date ...
   
   <br>
   
-  - ssid = 'DWR-921-F8C5'
-  - password = 'eTvwcPX5'
+  ~~- ssid = 'DWR-921-F8C5'~~
+  ~~- password = 'eTvwcPX5'~~
 
   <br>
 
