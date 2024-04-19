@@ -21,28 +21,6 @@ font-size: xx-large;">
     </p>
     <canvas id="canvas" name="game"></canvas>
     <script>
-        var connection = new WebSocket('ws://' + "192.168.4.1" + ':81/', ['arduino']);
-        connection.onopen = function () {
-            connection.send('Connect ' + new Date());
-        };
-        connection.onerror = function (error) {
-            console.log('WebSocket Error ', error);
-            alert('WebSocket Error ', error);
-        };
-        connection.onmessage = function (e) {
-            console.log('Server: ', e.data);
-        };
-
-        function send(x, y, speed, angle) {
-            var data = { "x": x, "y": y, "speed": speed, "angle": angle };
-            data = JSON.stringify(data);
-            console.log(data);
-            connection.send(data);
-        }
-
-
-    </script>
-    <script>
         var canvas, ctx;
 
         window.addEventListener('load', () => {
