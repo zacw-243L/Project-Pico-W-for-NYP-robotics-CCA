@@ -128,43 +128,85 @@ font-size: xx-large;">
 
         function Draw(event) {
             if (paint) {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        background();
-        var angle_in_degrees, x, y, speed;
-        var angle = Math.atan2((coord.y - y_orig), (coord.x - x_orig));
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                background();
+                var angle_in_degrees, x, y, speed;
+                var angle = Math.atan2((coord.y - y_orig), (coord.x - x_orig));
 
-        if (Math.sign(angle) == -1) {
-            angle_in_degrees = Math.round(-angle * 180 / Math.PI);
-        }
-        else {
-            angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
-        }
+                if (Math.sign(angle) == -1) {
+                    angle_in_degrees = Math.round(-angle * 180 / Math.PI);
+                }
+                else {
+                    angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
+                }
+                if (angle_in_degrees >= 90 && angle_in_degrees <= 135) {
 
-        if (is_it_in_the_circle()) {
-            joystick(coord.x, coord.y);
-            x = coord.x;
-            y = coord.y;
-        }
-        else {
-            x = radius * Math.cos(angle) + x_orig;
-            y = radius * Math.sin(angle) + y_orig;
-            joystick(x, y);
-        }
+                    function get_action(form1) {
+                        form.action = action = "./forward";
+                    }
+                }
+                if (angle_in_degrees > 135 && angle_in_degrees < 180) {
 
-        if (event) {
-            getPosition(event);
-        }
+                    function get_action(form2) {
+                        form.action = action = "./left";
+                    }
+                }
+                if (angle_in_degrees > 180 && angle_in_degrees < 225) {
 
-        var speed = Math.round(100 * Math.sqrt(Math.pow(x - x_orig, 2) + Math.pow(y - y_orig, 2)) / radius);
+                    function get_action(form3) {
+                        form.action = action = "./left";
+                    }
+                }
+                if (angle_in_degrees > 225 && angle_in_degrees < 270) {
 
-        var x_relative = Math.round(x - x_orig);
-        var y_relative = Math.round(y - y_orig);
+                    function get_action(form4) {
+                        form.action = action = "./back";
+                    }
+                }
+                if (angle_in_degrees > 270 && angle_in_degrees < 315) {
 
-        document.getElementById("x_coordinate").innerText = x_relative;
-        document.getElementById("y_coordinate").innerText = y_relative;
-        document.getElementById("speed").innerText = speed;
-        document.getElementById("angle").innerText = angle_in_degrees;
-    }
+                    function get_action(form5) {
+                        form.action = action = "./back";
+                    }
+                }
+                if (angle_in_degrees > 315 && angle_in_degrees < 360) {
+
+                    function get_action(form6) {
+                        form.action = action = "./right";
+                    }
+                }
+                if (angle_in_degrees < 45) {
+
+                    function get_action(form7) {
+                        form.action = action = "./right";
+                    }
+                }
+
+                if (is_it_in_the_circle()) {
+                    joystick(coord.x, coord.y);
+                    x = coord.x;
+                    y = coord.y;
+                }
+                else {
+                    x = radius * Math.cos(angle) + x_orig;
+                    y = radius * Math.sin(angle) + y_orig;
+                    joystick(x, y);
+                }
+
+                if (event) {
+                    getPosition(event);
+                }
+
+                var speed = Math.round(100 * Math.sqrt(Math.pow(x - x_orig, 2) + Math.pow(y - y_orig, 2)) / radius);
+
+                var x_relative = Math.round(x - x_orig);
+                var y_relative = Math.round(y - y_orig);
+
+                document.getElementById("x_coordinate").innerText = x_relative;
+                document.getElementById("y_coordinate").innerText = y_relative;
+                document.getElementById("speed").innerText = speed;
+                document.getElementById("angle").innerText = angle_in_degrees;
+            }
         } 
     </script>
 </body>
