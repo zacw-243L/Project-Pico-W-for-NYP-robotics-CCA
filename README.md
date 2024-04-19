@@ -454,7 +454,7 @@ while True:
         sleep(1)
         move_stop()
 ```
-Python code above done by me and roy.
+Python code above done by me and Roy.
 
 # After some modding and adding new code...
 <br>
@@ -469,8 +469,9 @@ a working romba that moves in random directions<br>
 Credit to me for the video
 
 For more info about the Pico W click here[^1].
+For more info about How to make a Pico W HTTP server click here[^2].
 
-[^1]: [Pico W documentation. they did this better then me](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/microcontrollers/raspberry-pi-pico/about_pico.adoc)
-
+[^1]: [Pico W documentation. they did this better than me](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/microcontrollers/raspberry-pi-pico/about_pico.adoc)
+[^2]: [Pico W's connectivity](https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf)
 
 
