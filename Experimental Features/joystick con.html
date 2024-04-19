@@ -83,8 +83,14 @@ font-size: xx-large;">
         let paint = false;
 
         function getPosition(event) {
-            var mouse_x = event.clientX || event.touches[0].clientX;
-            var mouse_y = event.clientY || event.touches[0].clientY;
+            if (event.touches) {
+                var mouse_x = event.touches[0].clientX;
+                var mouse_y = event.touches[0].clientY;
+            }
+            else {
+                var mouse_x = event.clientX;
+                var mouse_y = event.clientY;
+            }
             coord.x = mouse_x - canvas.offsetLeft;
             coord.y = mouse_y - canvas.offsetTop;
         }
@@ -121,48 +127,44 @@ font-size: xx-large;">
         }
 
         function Draw(event) {
-
             if (paint) {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                background();
-                var angle_in_degrees, x, y, speed;
-                var angle = Math.atan2((coord.y - y_orig), (coord.x - x_orig));
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        background();
+        var angle_in_degrees, x, y, speed;
+        var angle = Math.atan2((coord.y - y_orig), (coord.x - x_orig));
 
-                if (Math.sign(angle) == -1) {
-                    angle_in_degrees = Math.round(-angle * 180 / Math.PI);
-                }
-                else {
-                    angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
-                }
+        if (Math.sign(angle) == -1) {
+            angle_in_degrees = Math.round(-angle * 180 / Math.PI);
+        }
+        else {
+            angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
+        }
 
+        if (is_it_in_the_circle()) {
+            joystick(coord.x, coord.y);
+            x = coord.x;
+            y = coord.y;
+        }
+        else {
+            x = radius * Math.cos(angle) + x_orig;
+            y = radius * Math.sin(angle) + y_orig;
+            joystick(x, y);
+        }
 
-                if (is_it_in_the_circle()) {
-                    joystick(coord.x, coord.y);
-                    x = coord.x;
-                    y = coord.y;
-                }
-                else {
-                    x = radius * Math.cos(angle) + x_orig;
-                    y = radius * Math.sin(angle) + y_orig;
-                    joystick(x, y);
-                }
+        if (event) {
+            getPosition(event);
+        }
 
+        var speed = Math.round(100 * Math.sqrt(Math.pow(x - x_orig, 2) + Math.pow(y - y_orig, 2)) / radius);
 
-                getPosition(event);
+        var x_relative = Math.round(x - x_orig);
+        var y_relative = Math.round(y - y_orig);
 
-                var speed = Math.round(100 * Math.sqrt(Math.pow(x - x_orig, 2) + Math.pow(y - y_orig, 2)) / radius);
-
-                var x_relative = Math.round(x - x_orig);
-                var y_relative = Math.round(y - y_orig);
-
-
-                document.getElementById("x_coordinate").innerText = x_relative;
-                document.getElementById("y_coordinate").innerText = y_relative;
-                document.getElementById("speed").innerText = speed;
-                document.getElementById("angle").innerText = angle_in_degrees;
-
-                send(x_relative, y_relative, speed, angle_in_degrees);
-            }
+        document.getElementById("x_coordinate").innerText = x_relative;
+        document.getElementById("y_coordinate").innerText = y_relative;
+        document.getElementById("speed").innerText = speed;
+        document.getElementById("angle").innerText = angle_in_degrees;
+    }
         } 
     </script>
 </body>
