@@ -4,7 +4,7 @@
 
 <br>
 
-~~found a joystick that works... but it has JavaScript. How do integrate Js into an HTTP Server?~~ Js is not accepted. everything must be done in HTML :c 
+~~found a joystick that works... but it has JavaScript. How do integrate Js into an HTTP Server?~~  <br> Js is not accepted. everything must be done in HTML :c 
 
 <br>
 
