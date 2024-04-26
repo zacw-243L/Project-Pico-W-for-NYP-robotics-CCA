@@ -19,6 +19,7 @@ font-size: xx-large;">
         Speed: <span id="speed"> </span> %
         Angle: <span id="angle"> </span>
     </p>
+    <h6 id = "Mobeme">1</h1>
     <canvas id="canvas" name="game"></canvas>
     <script>
         var canvas, ctx;
@@ -93,17 +94,24 @@ font-size: xx-large;">
             }
             coord.x = mouse_x - canvas.offsetLeft;
             coord.y = mouse_y - canvas.offsetTop;
+            
         }
 
         function is_it_in_the_circle() {
             var current_radius = Math.sqrt(Math.pow(coord.x - x_orig, 2) + Math.pow(coord.y - y_orig, 2));
             if (radius >= current_radius) return true
             else return false
+            
         }
 
 
-        function startDrawing(event) {
+        function startDrawing(event,angle_in_degrees) {
+            
+            document.getElementById("angle").innerText = angle_in_degrees;
             paint = true;
+            console.log(angle_in_degrees);
+            console.log(document.getElementById("angle").innerText);
+            angle_in_degrees = document.getElementById("angle").innerText;
             getPosition(event);
             if (is_it_in_the_circle()) {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -111,6 +119,7 @@ font-size: xx-large;">
                 joystick(coord.x, coord.y);
                 Draw();
             }
+            
         }
 
 
@@ -139,7 +148,30 @@ font-size: xx-large;">
                 else {
                     angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
                 }
-               
+                if (angle_in_degrees == 0 ) {
+                    document.getElementById("Mobeme").innerHTML="stop"; 
+                    console.log('stop')
+                }
+                if (angle_in_degrees >= 45 && angle_in_degrees <= 135) {
+                document.getElementById("Mobeme").innerHTML="forward";
+                console.log('forward')
+                }
+                if (angle_in_degrees > 135 && angle_in_degrees < 225) {
+                    document.getElementById("Mobeme").innerHTML="left";
+                    console.log('left')
+                }
+                if (angle_in_degrees > 225 && angle_in_degrees < 315) {
+                    document.getElementById("Mobeme").innerHTML="backward"; 
+                    console.log('backward')
+                }
+                if (angle_in_degrees > 315) {
+                    document.getElementById("Mobeme").innerHTML="right";
+                    console.log('right')
+                }
+                if (angle_in_degrees < 45) {
+                    document.getElementById("Mobeme").innerHTML="right";
+                    console.log('right')
+                }
 
                 if (is_it_in_the_circle()) {
                     joystick(coord.x, coord.y);
@@ -165,6 +197,7 @@ font-size: xx-large;">
                 document.getElementById("y_coordinate").innerText = y_relative;
                 document.getElementById("speed").innerText = speed;
                 document.getElementById("angle").innerText = angle_in_degrees;
+                
             }
         } 
     </script>
