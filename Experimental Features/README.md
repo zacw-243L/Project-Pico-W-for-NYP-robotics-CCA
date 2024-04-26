@@ -5,13 +5,19 @@
 <br>
 
 ~~found a joystick that works... but it has JavaScript. How do integrate Js into an HTTP Server?~~  <br> Js is not accepted. everything must be done in HTML :c 
+<br>
+
+HTTP server works to host Javascript
 
 <br>
 
 Full credits goes to iamrachelle for providing the code 
 
 
-# Dont use the following code below yet...
+# ~~Don't use the following code below yet...~~ <br>
+
+ the code works
+
 <br>
 
 [code is from a random repo claiming that they use JavaScript in Pico W](https://github.com/pi3g/pico-w/blob/main/MicroPython/I%20Pico%20W%20LED%20web%20server/main.py)
