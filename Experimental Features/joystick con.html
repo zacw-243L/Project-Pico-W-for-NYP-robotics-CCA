@@ -139,48 +139,7 @@ font-size: xx-large;">
                 else {
                     angle_in_degrees = Math.round(360 - angle * 180 / Math.PI);
                 }
-                if (angle_in_degrees >= 90 && angle_in_degrees <= 135) {
-
-                    function get_action(form1) {
-                        form.action = action = "./forward";
-                    }
-                }
-                if (angle_in_degrees > 135 && angle_in_degrees < 180) {
-
-                    function get_action(form2) {
-                        form.action = action = "./left";
-                    }
-                }
-                if (angle_in_degrees > 180 && angle_in_degrees < 225) {
-
-                    function get_action(form3) {
-                        form.action = action = "./left";
-                    }
-                }
-                if (angle_in_degrees > 225 && angle_in_degrees < 270) {
-
-                    function get_action(form4) {
-                        form.action = action = "./back";
-                    }
-                }
-                if (angle_in_degrees > 270 && angle_in_degrees < 315) {
-
-                    function get_action(form5) {
-                        form.action = action = "./back";
-                    }
-                }
-                if (angle_in_degrees > 315 && angle_in_degrees < 360) {
-
-                    function get_action(form6) {
-                        form.action = action = "./right";
-                    }
-                }
-                if (angle_in_degrees < 45) {
-
-                    function get_action(form7) {
-                        form.action = action = "./right";
-                    }
-                }
+               
 
                 if (is_it_in_the_circle()) {
                     joystick(coord.x, coord.y);
