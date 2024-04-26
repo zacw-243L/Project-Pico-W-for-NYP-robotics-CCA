@@ -146,7 +146,7 @@ while True:
 #request.close()
 ```
 
-# XML XMLHttpRequest?
+# XMLHttpRequest?
 
 ```
 <script>
