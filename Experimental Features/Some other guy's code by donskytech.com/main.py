@@ -7,28 +7,28 @@ app = Microdot()
 Response.default_content_type = "text/html"
 
 # Wifi Robot Car Configuration
-# MAX_POWER_LEVEL = 65535		# 100%
-# MEDIUM_POWER_LEVEL = 49151  # 75%
-# MIN_POWER_LEVEL = 32767		# 50%
+MAX_POWER_LEVEL = 65535		# 100%
+MEDIUM_POWER_LEVEL = 49151  # 75%
+MIN_POWER_LEVEL = 32767		# 50%
 
-# enable_pins = [21, 22]
-# motor_pins = [18, 5, 33, 25]
+enable_pins = [4, 11]
+motor_pins = [18, 19, 20, 21]
 
-# robot_car = RobotCar(enable_pins, motor_pins, MEDIUM_POWER_LEVEL)
+robot_car = RobotCar(enable_pins, motor_pins, MEDIUM_POWER_LEVEL)
 
-'''car_commands = {
+car_commands = {
     "forward": robot_car.forward,
     "reverse": robot_car.reverse,
     "left": robot_car.turnLeft,
     "right": robot_car.turnRight,
     "stop": robot_car.stop
-}'''
+}
 
-'''speed_commands = {
+speed_commands = {
     "slow-speed": MIN_POWER_LEVEL,
     "normal-speed": MEDIUM_POWER_LEVEL,
     "fast-speed": MAX_POWER_LEVEL
-}'''
+}
 
 
 # App Route
