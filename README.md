@@ -449,6 +449,14 @@ this might be out of date ...
 #### Credit to Christopher Barnatt for providing all the Python code above
 <br>
 
+#installation
+<br>
+ 1. just `git clone` or download the repo.
+<br>
+ 2. then open the Thonny IDE, and connect your Pico W to your PC. 
+<br>
+ 3. Drag [lib and Main.py](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/tree/Master-Repo/Stuff%20to%20Upload%20into%20Pico%20W) into the Pico W.
+
 # Once you have done all of the above ...
 <br>
 you should now have a working robot that looks like this...
