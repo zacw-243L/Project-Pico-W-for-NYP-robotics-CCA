@@ -270,11 +270,11 @@ Mot_B_Back = Pin(21, Pin.OUT)
 EN_A = PWM(Pin(8))
 EN_B = PWM(Pin(2))
 # Defining frequency for enable pins
-EN_A.freq(1500)
-EN_B.freq(1500)
+EN_A.freq(2000)
+EN_B.freq(2000)
 # Setting maximum duty cycle for maximum speed (0 to 65025)
-EN_A.duty_u16(65025)
-EN_B.duty_u16(65025)
+EN_A.duty_u16(65535)
+EN_B.duty_u16(65535)
 
 def move_forward():
     Mot_A_Forward.value(1)
@@ -355,6 +355,17 @@ def webpage():
             <form action="./back">
             <input type="submit" value="Back" style="height:120px; width:120px" />
             </form>
+            <br>
+            <table><tr>
+            <form action="./High">
+            <input type="submit" value="High" style="height:120px; width:120px" />
+            </form></td>
+            <form action="./Medium">
+            <input type="submit" value="Medium" style="height:120px; width:120px" />
+            </form></td>
+            <form action="./Low">
+            <input type="submit" value="Low" style="height:120px; width:120px" />
+            </form></td>
             </body>
             </html>
             """
@@ -380,6 +391,15 @@ def serve(connection):
             move_right()
         elif request =='/back?':
             move_backward()
+        elif request =='/High?':
+            EN_A.duty_u16(65535)
+            EN_B.duty_u16(65535)
+        elif request =='/Medium?':
+            EN_A.duty_u16(44350)
+            EN_B.duty_u16(44350)
+        elif request =='/Low?':
+            EN_A.duty_u16(39321)
+            EN_B.duty_u16(39321)
         html = webpage()
         client.send(html)
         client.close()
