@@ -452,7 +452,7 @@ this might be out of date ...
 # installation
 <br>
 
- 1. just `git clone` or download the repo.
+ 1. `git clone` or download the repo.
 <br>
 
  2. then open the Thonny IDE, and connect your Pico W to your PC. 
