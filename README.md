@@ -14,7 +14,14 @@ Repository for all things needed for the robot to work
 ### Youtube tutorial
 <br>
 
-[![Raspberry Pi Pico W: WiFi  Controlled Robot](https://i.ytimg.com/vi/iTo4Qh2R6m4/maxresdefault.jpg)](https://www.youtube.com/watch?v=iTo4Qh2R6m4 "Raspberry Pi Pico W: WiFi  Controlled Robot")   
+[![Raspberry Pi Pico W: WiFi  Controlled Robot](https://i.ytimg.com/vi/iTo4Qh2R6m4/maxresdefault.jpg)](https://www.youtube.com/watch?v=iTo4Qh2R6m4 "Raspberry Pi Pico W: WiFi  Controlled Robot")
+<br>
+
+### Wiring Schematic<br>
+<br>
+
+![Screenshot_20240510-1407312](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/2a33b026-e19f-4948-a2e5-f3ccee780952)
+
  
 
  3. [link to thonny micropython IDE](https://thonny.org/)
