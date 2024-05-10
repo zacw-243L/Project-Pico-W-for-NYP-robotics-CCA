@@ -103,6 +103,17 @@ def webpage():
             <form action="./back">
             <input type="submit" value="Back" style="height:120px; width:120px" />
             </form>
+            <br>
+            <table><tr>
+            <form action="./High">
+            <input type="submit" value="High" style="height:120px; width:120px" />
+            </form></td>
+            <form action="./Medium">
+            <input type="submit" value="Medium" style="height:120px; width:120px" />
+            </form></td>
+            <form action="./Low">
+            <input type="submit" value="Low" style="height:120px; width:120px" />
+            </form></td>
             </body>
             </html>
             """
@@ -128,6 +139,15 @@ def serve(connection):
             move_right()
         elif request =='/back?':
             move_backward()
+        elif request =='/High?':
+            EN_A.duty_u16(65025)
+            EN_B.duty_u16(65025)
+        elif request =='/Medium?':
+            EN_A.duty_u16(43350)
+            EN_B.duty_u16(43350)
+        elif request =='/Medium?':
+            EN_A.duty_u16(21675)
+            EN_B.duty_u16(21675)
         html = webpage()
         client.send(html)
         client.close()
@@ -140,3 +160,4 @@ except KeyboardInterrupt:
     machine.reset()
 
     
+
