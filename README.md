@@ -174,12 +174,22 @@ except KeyboardInterrupt:
 ### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Motor%20Test.py)
 ```
 from time import sleep
-from machine import Pin
+from machine import PWM, Pin
 
 Mot_A_Forward = Pin(18, Pin.OUT)
 Mot_A_Back = Pin(19, Pin.OUT)
 Mot_B_Forward = Pin(20, Pin.OUT)
 Mot_B_Back = Pin(21, Pin.OUT)
+
+# Set PWM
+EN_A = PWM(Pin(8))
+EN_B = PWM(Pin(2))
+# Defining frequency for enable pins
+EN_A.freq(1500)
+EN_B.freq(1500)
+# Setting maximum duty cycle for maximum speed (0 to 65025)
+EN_A.duty_u16(65025)
+EN_B.duty_u16(65025)
 
 def move_forward():
     Mot_A_Forward.value(1)
@@ -244,17 +254,27 @@ import network
 import socket
 from time import sleep
 import machine
-from machine import Pin
+from machine import Pin,PWM #importing PIN and PWM
 
 # Yes, these could be in another file. But on the Pico! So no more secure. :)
-ssid = 'Your_Network_Name'
-password = 'Your_WiFi_Password'
+ssid = 'NETGEAR35'
+password = 'fluffylake937'
 
 # Define pins to pin motors!
 Mot_A_Forward = Pin(18, Pin.OUT)
 Mot_A_Back = Pin(19, Pin.OUT)
 Mot_B_Forward = Pin(20, Pin.OUT)
 Mot_B_Back = Pin(21, Pin.OUT)
+
+# Set PWM
+EN_A = PWM(Pin(8))
+EN_B = PWM(Pin(2))
+# Defining frequency for enable pins
+EN_A.freq(1500)
+EN_B.freq(1500)
+# Setting maximum duty cycle for maximum speed (0 to 65025)
+EN_A.duty_u16(65025)
+EN_B.duty_u16(65025)
 
 def move_forward():
     Mot_A_Forward.value(1)
