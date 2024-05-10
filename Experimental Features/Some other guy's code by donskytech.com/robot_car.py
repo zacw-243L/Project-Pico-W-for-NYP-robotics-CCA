@@ -1,3 +1,4 @@
+import machine
 from machine import Pin, PWM
 import utime
 import time
@@ -17,6 +18,9 @@ class RobotCar():
         self.left_motor_control_2 = Pin(motor_pins[3], Pin.OUT)
         
         self.speed = speed
+        
+    def set_speed(self, new_speed):
+        self.speed = new_speed
         
     def stop(self):
         print('Car stopping')
@@ -67,9 +71,6 @@ class RobotCar():
         self.right_motor_control_2.value(0)
         self.left_motor_control_1.value(1)
         self.left_motor_control_2.value(0)
-        
-    def set_speed(self, new_speed):
-        self.speed = new_speed
         
     def cleanUp(self):
         print('Cleaning up pins')

@@ -11,7 +11,7 @@ MAX_POWER_LEVEL = 65535		# 100%
 MEDIUM_POWER_LEVEL = 49151  # 75%
 MIN_POWER_LEVEL = 32767		# 50%
 
-enable_pins = [4, 11]
+enable_pins = [2, 8]
 motor_pins = [18, 19, 20, 21]
 
 robot_car = RobotCar(enable_pins, motor_pins, MEDIUM_POWER_LEVEL)
