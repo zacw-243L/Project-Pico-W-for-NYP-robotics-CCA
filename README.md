@@ -63,7 +63,7 @@ Repository for all things needed for the robot to work
 <br>
 
 ## The final code used in the video can be downloaded or copy pasted from below as follows: <br>
-### 1. [Web Control](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Web%20Control.py)
+### 1. [Web Control](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/Working%20Python%20Test%20files/Web%20Control.py)
 
 ```
 import network
@@ -172,7 +172,7 @@ try:
 except KeyboardInterrupt:
     machine.reset()
 ```
-### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Motor%20Test.py)
+### 2. [Motor Test](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/Working%20Python%20Test%20files/Motor%20Test.py)
 ```
 from time import sleep
 from machine import PWM, Pin
@@ -249,7 +249,7 @@ print ("'Time for bed' said Zeberdee.")
 
 move_stop()
 ```
-### 3. [Final Code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/Final%20Code.py)
+### 3. [Final Code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/Stuff%20to%20Upload%20into%20Pico%20W/Main.py)
 ```
 import network
 import socket
@@ -431,7 +431,7 @@ this might be out of date ...
 
 # Once you have done all of the above ...
 <br>
-you should have a working robot that looks like this...
+you should now have a working robot that looks like this...
 <br>
 
 
@@ -442,7 +442,7 @@ credit to me for the video
 
 # Extra Code
 
-## [IR sensor code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Python%20Codes/IR%20sensor.py)
+## [IR sensor code](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/Working%20Python%20Test%20files/IR%20sensor.py)
 ```
 from time import sleep
 from machine import Pin
