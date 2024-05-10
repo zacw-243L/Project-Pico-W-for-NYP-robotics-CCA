@@ -140,14 +140,14 @@ def serve(connection):
         elif request =='/back?':
             move_backward()
         elif request =='/High?':
-            EN_A.duty_u16(65025)
-            EN_B.duty_u16(65025)
+            EN_A.duty_u16(65535)
+            EN_B.duty_u16(65535)
         elif request =='/Medium?':
-            EN_A.duty_u16(43350)
-            EN_B.duty_u16(43350)
+            EN_A.duty_u16(44350)
+            EN_B.duty_u16(44350)
         elif request =='/Low?':
-            EN_A.duty_u16(36045)
-            EN_B.duty_u16(36045)
+            EN_A.duty_u16(39321)
+            EN_B.duty_u16(39321)
         html = webpage()
         client.send(html)
         client.close()
