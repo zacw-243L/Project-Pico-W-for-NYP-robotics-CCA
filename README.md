@@ -54,7 +54,7 @@ Repository for all things needed for the robot to work
     ## De Bricking instructions <br>
 
       1. Hold down the BOOTSEL button while plugging the board into USB.
-      2. When the USB mass storage device window appear copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/Flash_NUKE%20(unbricks%20the%20Pico%20W).uf2) into the Pico W board
+      2. When the USB mass storage device window appears copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/Flash_NUKE%20(unbricks%20the%20Pico%20W).uf2) into the Pico W board
       3. Wait for the window to close then it will open again. <br>
          This time copy [the (Latest Version) RPI_PICO_W-20240222-v1.22.2.uf2 file which is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/(Latest%20Version)%20RPI_PICO_W-20240222-v1.22.2.uf2) into the Pico W board.
       4. The Pico W board should now work again. (hopefully)
@@ -454,8 +454,7 @@ this might be out of date ...
 you should now have a working robot that looks like this...
 <br>
 
-
-https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/c843cf3b-05e1-4dd4-ae39-a13bed93fc13
+https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/66910106-0d2b-46a2-97a9-151321dd1794
 
 credit to me for the video
 
