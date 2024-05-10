@@ -476,6 +476,10 @@ a working romba that moves in random directions<br>
 
 Credit to me for the video
 
+<br>
+
+Footnote: the project is still being worked on don't look under experimental features...
+
 For more info about the Pico W click here[^1] <br>
 For more info about How to make a Pico W HTTP server click here[^2]
 
