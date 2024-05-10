@@ -8,8 +8,8 @@ Class to represent our robot car
 """
 class RobotCar():
     def __init__(self, enable_pins, motor_pins, speed):
-        self.right_motor_enable_pin = PWM(Pin(enable_pins[1]), freq=2000)
-        self.left_motor_enable_pin = PWM(Pin(enable_pins[0]), freq=2000)
+        self.right_motor_enable_pin = PWM(Pin(enable_pins[1]), freq=1500)
+        self.left_motor_enable_pin = PWM(Pin(enable_pins[0]), freq=1500)
         
         self.right_motor_control_1 = Pin(motor_pins[0], Pin.OUT)
         self.right_motor_control_2 = Pin(motor_pins[1], Pin.OUT)
