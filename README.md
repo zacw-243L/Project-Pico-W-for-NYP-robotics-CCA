@@ -451,6 +451,7 @@ this might be out of date ...
 
 # installation
 <br>
+
  1. just `git clone` or download the repo.
 <br>
 
