@@ -143,11 +143,11 @@ def serve(connection):
             EN_A.duty_u16(65025)
             EN_B.duty_u16(65025)
         elif request =='/Medium?':
-            EN_A.duty_u16(43350)
-            EN_B.duty_u16(43350)
+            EN_A.duty_u16(49350)
+            EN_B.duty_u16(49350)
         elif request =='/Low?':
-            EN_A.duty_u16(30000)
-            EN_B.duty_u16(30000)
+            EN_A.duty_u16(40000)
+            EN_B.duty_u16(40000)
         html = webpage()
         client.send(html)
         client.close()
