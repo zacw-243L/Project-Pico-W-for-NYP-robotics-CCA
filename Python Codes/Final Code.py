@@ -145,7 +145,7 @@ def serve(connection):
         elif request =='/Medium?':
             EN_A.duty_u16(43350)
             EN_B.duty_u16(43350)
-        elif request =='/Medium?':
+        elif request =='/Low?':
             EN_A.duty_u16(21675)
             EN_B.duty_u16(21675)
         html = webpage()
