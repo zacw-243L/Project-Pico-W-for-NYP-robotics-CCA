@@ -18,11 +18,11 @@ Mot_B_Back = Pin(21, Pin.OUT)
 EN_A = PWM(Pin(8))
 EN_B = PWM(Pin(2))
 # Defining frequency for enable pins
-EN_A.freq(1500)
-EN_B.freq(1500)
+EN_A.freq(2000)
+EN_B.freq(2000)
 # Setting maximum duty cycle for maximum speed (0 to 65025)
-EN_A.duty_u16(65025)
-EN_B.duty_u16(65025)
+EN_A.duty_u16(65535)
+EN_B.duty_u16(65535)
 
 def move_forward():
     Mot_A_Forward.value(1)
@@ -146,8 +146,8 @@ def serve(connection):
             EN_A.duty_u16(43350)
             EN_B.duty_u16(43350)
         elif request =='/Low?':
-            EN_A.duty_u16(21675)
-            EN_B.duty_u16(21675)
+            EN_A.duty_u16(30000)
+            EN_B.duty_u16(30000)
         html = webpage()
         client.send(html)
         client.close()
