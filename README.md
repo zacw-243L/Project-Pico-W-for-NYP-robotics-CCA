@@ -42,7 +42,7 @@ Repository for all things needed for the robot to work
     hopefully optional
     <br>
  
-    [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2)
+    [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/Flash_NUKE%20(unbricks%20the%20Pico%20W).uf2)
 
     # Read the below carefully <br>
     if you get the following error
@@ -54,9 +54,9 @@ Repository for all things needed for the robot to work
     ## De Bricking instructions <br>
 
       1. Hold down the BOOTSEL button while plugging the board into USB.
-      2. When the USB mass storage device windows appears copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/flash_nuke.uf2) into the Pico W board
+      2. When the USB mass storage device window appear copy [the flash_nuke.uf2 file](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/Flash_NUKE%20(unbricks%20the%20Pico%20W).uf2) into the Pico W board
       3. Wait for the window to close then it will open again. <br>
-         This time copy [the RPI_PICO_W-20240105-v1.22.1.uf2 file which is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYProboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2) into the Pico W board.
+         This time copy [the (Latest Version) RPI_PICO_W-20240222-v1.22.2.uf2 file which is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/(Latest%20Version)%20RPI_PICO_W-20240222-v1.22.2.uf2) into the Pico W board.
       4. The Pico W board should now work again. (hopefully)
 
 
