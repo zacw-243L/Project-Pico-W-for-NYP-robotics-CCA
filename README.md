@@ -3,6 +3,7 @@
 Repository for all things needed for the robot to work
 <br>
 
+
 ## Below are the steps taken to make the robot
 
 <br>
@@ -20,7 +21,7 @@ Repository for all things needed for the robot to work
 ### Wiring Schematic<br>
 <br>
 
-![Screenshot_20240510-1407312](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/2a33b026-e19f-4948-a2e5-f3ccee780952)
+![Is it all been worthwhile](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/11210b64-0726-4693-98d1-ed80c6eb4e47)
 
  
 
