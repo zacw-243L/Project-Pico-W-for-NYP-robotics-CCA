@@ -5,8 +5,8 @@ import machine
 from machine import Pin,PWM #importing PIN and PWM
 
 # Yes, these could be in another file. But on the Pico! So no more secure. :)
-ssid = 'NETGEAR35'
-password = 'fluffylake937'
+ssid = 'Your_Network_Name'
+password = 'Your_WiFi_Password'
 
 # Define pins to pin motors!
 Mot_A_Forward = Pin(18, Pin.OUT)
