@@ -449,7 +449,7 @@ this might be out of date ...
 #### Credit to Christopher Barnatt for providing all the Python code above
 <br>
 
-#installation
+# installation
 <br>
  1. just `git clone` or download the repo.
 <br>
