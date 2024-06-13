@@ -25,9 +25,14 @@ Repository for all things needed for the robot to work
 
  
 
- 3. [link to thonny micropython IDE](https://thonny.org/)
+ 3. [link to thonny micropython IDE](https://thonny.org/)<br>
 
- 4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
+    Thonny is a Python IDE that is beginner-friendly. Click the link above to install.
+
+     ## Conﬁgure Thonny IDE
+    
+
+ 5. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
 
     [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/RPI_PICO_W-20240105-v1.22.1.uf2)
 
@@ -40,7 +45,7 @@ Repository for all things needed for the robot to work
       5. Drag and drop the UF2 ﬁle  onto the RPI-RP2 drive.
       6. The Pico W will auto reboot and run MicroPython.
 
- 5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2)
+ 6. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2)
     <br>
     hopefully optional
     <br>
