@@ -29,7 +29,7 @@ Repository for all things needed for the robot to work
 
  4. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
 
-    [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-roboticsCCA/blob/main/Stuff%20needed%20to%20run%20the%20Pico%20W%20board/Pico%20Pi%20W/RPI_PICO_W-20240105-v1.22.1.uf2)
+    [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/RPI_PICO_W-20240105-v1.22.1.uf2)
 
     ## Installation instructions <br>
 
