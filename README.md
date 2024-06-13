@@ -58,7 +58,7 @@ Repository for all things needed for the robot to work
     [The flash_nuke.uf2 file is used to wipe a "bricked" Pico W board](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/Flash_NUKE%20(unbricks%20the%20Pico%20W).uf2)
 
     # Read the below carefully <br>
-    if you get the following error
+    if you get the following error<br>
     (edit: this error is only fatal after removing the micro USB cable from the Pico W. Otherwise most of the time you can just click through it)
 
     ![thonny back end error](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/4050c316-421f-4643-bdb2-88139d6c8c46) <br>
