@@ -30,6 +30,9 @@ Repository for all things needed for the robot to work
     Thonny is a Python IDE that is beginner-friendly. Click the link above to install.
 
      ## Conﬁgure Thonny IDE
+
+      1. Open up Thonny IDE software.
+      
     
 
  5. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
@@ -37,7 +40,7 @@ Repository for all things needed for the robot to work
     [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/RPI_PICO_W-20240105-v1.22.1.uf2)
 
     ## Installation instructions <br>
-
+    
       1. To get started on the Raspberry Pi Pico W, you need to connect a micro USB cable to the Pico W board.
       2. Before you plug the other end into the computer,  press and hold the BOOTSEL button.
       3. Continue to hold the  button for a few more  seconds after connecting  to the computer before releasing it.
