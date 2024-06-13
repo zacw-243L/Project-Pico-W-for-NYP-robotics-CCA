@@ -33,9 +33,12 @@ Repository for all things needed for the robot to work
 
     ## Installation instructions <br>
 
-      1. Hold down the BOOTSEL button while plugging the board into USB. 
-      2. The uf2 file below should then be copied to the USB mass storage device that appears.
-      3. Once programming of the new firmware is complete the device will automatically reset and be ready for use.
+      1. To get started on the Raspberry Pi Pico W, you need to connect a micro USB cable to the Pico W board.
+      2. Before you plug the other end into the computer,  press and hold the BOOTSEL button.
+      3. Continue to hold the  button for a few more  seconds after connecting  to the computer before releasing it.
+      4. A new drive (RPI-RP2) will  appear on your computer.
+      5. Drag and drop the UF2 ﬁle  onto the RPI-RP2 drive.
+      6. The Pico W will auto reboot and run MicroPython.
 
  5. [link to reset the pico w](https://github.com/dwelch67/raspberrypi-pico/blob/main/flash_nuke.uf2)
     <br>
