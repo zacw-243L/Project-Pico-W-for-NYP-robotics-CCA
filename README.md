@@ -59,6 +59,7 @@ Repository for all things needed for the robot to work
 
     # Read the below carefully <br>
     if you get the following error
+    (edit: this error is only fatal after removing the micro USB cable from the Pico W. Otherwise most of the time you can just click through it)
 
     ![thonny back end error](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/4050c316-421f-4643-bdb2-88139d6c8c46) <br>
 
