@@ -35,6 +35,8 @@ Repository for all things needed for the robot to work
       2. Go to ‘Tools’ -> ‘Options’, and under ‘Interpreter’ tab,  select ‘MicroPython (Raspberry Pi Pico)’.
       3. Click ‘OK’ to close.
 
+    ![imaawdaw](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/assets/58255472/af488293-29de-4972-b5bb-a899537d1d10)
+
  5. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
 
     [The RPI_PICO_W-20240105-v1.22.1.uf2 file is the Pico W board's firmware](https://github.com/zacw-243L/Roboto-Project-for-NYP-robotics-CCA/blob/Master-Repo/UF2%20bootloader%20(Micropython)/RPI_PICO_W-20240105-v1.22.1.uf2)
