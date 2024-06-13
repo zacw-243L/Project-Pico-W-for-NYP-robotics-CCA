@@ -32,8 +32,8 @@ Repository for all things needed for the robot to work
      ## Conﬁgure Thonny IDE
 
       1. Open up Thonny IDE software.
-      
-    
+      2. Go to ‘Tools’ -> ‘Options’, and under ‘Interpreter’ tab,  select ‘MicroPython (Raspberry Pi Pico)’.
+      3. Click ‘OK’ to close.
 
  5. [link to micropython pico W](https://micropython.org/download/RPI_PICO_W/) <br> 
 
