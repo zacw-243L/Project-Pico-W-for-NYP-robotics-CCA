@@ -4,6 +4,8 @@
 # Chapter 3: Your First Program
 <br>
 
+## Blink.py<br>
+
 Enter the following code to toggle the LED.
 
 ```
@@ -12,7 +14,7 @@ led = machine.Pin("LED", machine.Pin.OUT)
 led.toggle()
 ```
 
-## Upgraded code<br>
+## Blinker.py<br>
 
 You can use the Timer module to set a timer that runs a function at regular intervals. Update your code so it looks like this:
 
