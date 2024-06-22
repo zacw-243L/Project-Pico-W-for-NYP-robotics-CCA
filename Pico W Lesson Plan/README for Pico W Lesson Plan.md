@@ -4,7 +4,7 @@
 # Chapter 3: Your First Program
 <br>
 
-## Blink.py<br>
+## [Blink.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Blink.py)<br>
 
 Enter the following code to toggle the LED.
 
@@ -14,7 +14,7 @@ led = machine.Pin("LED", machine.Pin.OUT)
 led.toggle()
 ```
 
-## Blinker.py<br>
+## [Blinker.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Blinker.py)<br>
 
 You can use the Timer module to set a timer that runs a function at regular intervals. Update your code so it looks like this:
 
@@ -31,7 +31,9 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
-# Chapter 3.2: Connecting to the Internet
+# Chapter 3.2: Connecting to the Internet<br>
+
+## [Connecting to the Internet.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Connecting%20to%20the%20Internet.py)<br>
 
 ```
 import network
