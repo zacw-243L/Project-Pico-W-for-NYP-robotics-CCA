@@ -344,3 +344,12 @@ while True:
         sys.exit()
 ```
 
+# Chapter 4.3: Control Device from Cloud<br>
+
+## Activity: Control Device from Cloud<br>
+
+Time to apply what you have learnt.<br>
+Control the Raspberry Pi Pico W LED.<br>
+Set the LED to 1 if the humidity is more than 80, else  set the LED to 0.<br>
+
+
