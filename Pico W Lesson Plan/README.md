@@ -128,7 +128,7 @@ except KeyboardInterrupt:
 
 This chapter will teach you about DHT Sensors and how to use the internet to send stuff to the cloud
 
-## [Basic Sensor Script.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204%20(The%20Secrets%20of%20IoT)/Basic%20Sensor%20Script.py)<br>
+## [Basic Sensor Script.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204%20(A%20New%20Sensor)/Basic%20Sensor%20Script.py)<br>
 
 The MicroPython script reads temperature and  humidity readings from the DHT11 sensor. <br>
 These readings will be printed on the  MicroPython shell console<br>
