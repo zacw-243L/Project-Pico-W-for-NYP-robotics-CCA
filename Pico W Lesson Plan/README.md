@@ -124,7 +124,7 @@ except KeyboardInterrupt:
     machine.reset()
 ```
 
-# [Chapter 4: The Secrets of IoT](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/tree/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204%20(The%20Secrets%20of%20IoT))<br>
+# Chapter 4: The Secrets of IoT<br>
 
 This chapter will teach you about DHT Sensors and how to use the internet to send stuff to the cloud
 
