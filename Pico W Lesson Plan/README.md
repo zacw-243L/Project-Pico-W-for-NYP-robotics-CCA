@@ -35,7 +35,8 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 ## [Connecting to the Internet.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Connecting%20to%20the%20Internet.py)<br>
 
-There are many ways to connect a PIco W to the internet. One of the ways includes running an HTML file inside a Python script. 
+There are many ways to connect a PIco W to the internet. One of the ways includes running an HTML file inside a Python script.<br>
+(the files inside the folder Chapter 3.2 (Connecting to the Internet) can be directly uploaded to your Pico W)
 
 
 ```
