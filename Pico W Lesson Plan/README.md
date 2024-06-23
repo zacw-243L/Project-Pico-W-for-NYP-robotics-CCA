@@ -164,4 +164,6 @@ while True:
 
 # Chapter 4.1: The Secrets of IoT<br>
 
+IoT Data Analytics and Visualization. You will need an Adafruit io account from now on. <br>
+If you do not have an account [click here](https://accounts.adafruit.com/users/sign_up) to sign up for one
 
