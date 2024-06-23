@@ -240,3 +240,6 @@ timer = Timer(-1)
 timer.init(period=5000, mode = Timer.PERIODIC, callback = sens_data)
 ```
 
+# Chapter 4.2: Sending and Receiving <br>
+
+(the files inside the folder Chapter 4.2 (Sending and Receiving) can be directly uploaded to your Pico W)
