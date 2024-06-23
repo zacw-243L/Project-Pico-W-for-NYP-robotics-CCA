@@ -354,8 +354,12 @@ Set the LED to 1 if the humidity is more than 80, else  set the LED to 0.<br>
 
 <details>
   <summary>Answers</summary>
+
+  <br>
   
   Answers for those who cannot figure it out in time. <br>
+
+  (the files inside the folder Chapter 4.3 (Control Device from Cloud) (Activity) can be directly uploaded to your Pico W)
 
   ## [Answers.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204.3%20(Control%20Device%20from%20Cloud)%20(Activity)/Answers.py)<br>
 
