@@ -127,3 +127,38 @@ except KeyboardInterrupt:
 # [Chapter 4: The Secrets of IoT](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/tree/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204%20(The%20Secrets%20of%20IoT))<br>
 
 This chapter will teach you about DHT Sensors and how to use the internet to send stuff to the cloud
+
+## [Basic Sensor Script.py](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/blob/Master-Repo/Pico%20W%20Lesson%20Plan/Chapter%204%20(The%20Secrets%20of%20IoT)/Basic%20Sensor%20Script.py)<br>
+
+The MicroPython script reads temperature and  humidity readings from the DHT11 sensor. These readings will be printed on the  MicroPython shell console
+
+
+```
+import machine
+import dht
+from machine import Pin
+from time import sleep
+
+sensor = dht.DHT11(Pin(4))  
+led = machine.Pin("LED", machine.Pin.OUT)
+
+while True:
+    sleep(0.1)
+    sensor.measure()
+    temp = sensor.temperature()
+    hum = sensor.humidity()
+    print("Temperature: {}°C Humidity: {}% ".format(temp, hum))
+    
+    if hum > 80:
+        led.on()
+    else:
+        led.off()
+    
+    sleep(1)
+```
+
+### Output: 
+![osur2](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/assets/58255472/e7977912-fcdc-42e7-bc4d-d9293a9119eb)
+
+
+
