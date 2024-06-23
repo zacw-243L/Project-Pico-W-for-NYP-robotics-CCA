@@ -124,7 +124,7 @@ except KeyboardInterrupt:
     machine.reset()
 ```
 
-# Chapter 4: The Secrets of IoT<br>
+# Chapter 4: A New Sensor<br>
 
 This chapter will teach you about DHT Sensors and how to use the internet to send stuff to the cloud
 
@@ -161,5 +161,6 @@ while True:
 ### Output: 
 ![osur2](https://github.com/zacw-243L/Project-Pico-W-for-NYP-robotics-CCA/assets/58255472/e7977912-fcdc-42e7-bc4d-d9293a9119eb)
 
+# Chapter 4.1: The Secrets of IoT<br>
 
 
